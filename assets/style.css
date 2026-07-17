@@ -1,0 +1,342 @@
+:root[data-theme=dark] {
+  --foreground: #e6e6e6;
+  --background: #0f0f0f;
+  --faint: #666666;
+  --lighter: #2a1212;
+  --marked: #5a1a1a;
+  --hover: #ff4d4d; }
+
+:root[data-theme=light] {
+  --foreground: #000000;
+  --background: #ffffff;
+  --faint: #999999;
+  --lighter: #fff4f4;
+  --marked: #ffcccc;
+  --hover: #ff0000; }
+
+:root[data-theme=dark] .light-theme {
+  display: none; }
+
+:root[data-theme=light] .dark-theme {
+  display: none; }
+
+@media (min-width: 1000px) {
+  body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px; }
+
+  p {
+    text-align: justify; } }
+@media not all and (min-width: 1000px) {
+  .github-corner {
+    display: none; } }
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  color: var(--foreground);
+  background: var(--background); }
+
+code {
+  font-size: 13px;
+  padding: 0.15em 0.25em;
+  border-radius: 0.25em;
+  color: #bf0707;
+  background: var(--lighter); }
+
+pre {
+  background: var(--lighter);
+  font-size: 13px;
+  margin: 1rem 0;
+  position: relative;
+  overflow: hidden; }
+  pre code {
+    display: block;
+    border-radius: 0;
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: auto; }
+  pre button {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 0.25em 0.5em;
+    border: 5px solid var(--background);
+    border-top: none;
+    border-right: none;
+    color: #bf0707;
+    background-color: var(--lighter); }
+    pre button:hover {
+      color: var(--hover); }
+    pre button:active {
+      color: var(--lighter); }
+  pre:hover button {
+    display: block; }
+
+dt {
+  font-weight: bold; }
+
+blockquote {
+  margin: 1em 0; }
+  blockquote p {
+    padding: 1em;
+    margin: 0;
+    background: var(--lighter); }
+
+hr {
+  border: none;
+  height: 1px;
+  background: var(--foreground); }
+
+a:link, a:visited {
+  color: #bf0707; }
+a:hover {
+  color: var(--hover); }
+  a:hover > *:not(svg) {
+    color: var(--hover); }
+
+p {
+  line-height: 1.25; }
+
+fieldset {
+  border: 1px solid var(--faint);
+  position: relative;
+  margin: 1em 0;
+  padding: 0 1em;
+  min-width: 0; }
+  fieldset legend {
+    color: #bf0707;
+    font-size: 14px;
+    padding: 0 0.5em;
+    position: absolute;
+    background-color: var(--background);
+    top: -0.5lh; }
+
+::selection {
+  background-color: var(--foreground);
+  color: var(--background); }
+
+h1 {
+  display: flex;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; }
+  h1 .buttons {
+    display: flex;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+    flex-wrap: wrap; }
+    h1 .buttons a.github-button {
+      visibility: hidden; }
+    h1 .buttons span {
+      display: flex; }
+    h1 .buttons #theme-switcher {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      user-select: none; }
+      h1 .buttons #theme-switcher:hover {
+        color: var(--hover); }
+
+h2 .permalink, h3 .permalink, h4 .permalink, h5 .permalink, h5 .permalink {
+  margin-left: 5px;
+  text-decoration: none;
+  visibility: hidden; }
+  h2 .permalink::before, h3 .permalink::before, h4 .permalink::before, h5 .permalink::before, h5 .permalink::before {
+    content: "#"; }
+h2:target, h3:target, h4:target, h5:target, h5:target {
+  border-left: 5px solid #bf0707;
+  padding-left: 5px; }
+h2:hover .permalink, h3:hover .permalink, h4:hover .permalink, h5:hover .permalink, h5:hover .permalink {
+  visibility: visible; }
+
+#search-toolbox {
+  padding-top: 1px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  position: relative; }
+  #search-toolbox fieldset {
+    padding: 1em;
+    border-color: #bf0707; }
+    #search-toolbox fieldset legend {
+      color: var(--foreground);
+      font-size: initial;
+      font-weight: bold; }
+  #search-toolbox .search-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    #search-toolbox .search-filters a {
+      background: var(--lighter);
+      font-size: initial;
+      border-radius: 0.25em; }
+      #search-toolbox .search-filters a:hover:before {
+        content: attr(data-title);
+        font-size: 14px;
+        text-align: center;
+        display: block;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        margin-top: 1.75rem;
+        padding: 1em;
+        color: var(--background);
+        background: var(--foreground);
+        border-radius: 0.25em;
+        pointer-events: none;
+        z-index: 1; }
+  #search-toolbox input {
+    margin: -1rem;
+    padding: 1rem;
+    background: transparent;
+    width: calc(100% + 2rem);
+    color: var(--foreground);
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    border: none; }
+
+#gtfobin-table-wrapper {
+  min-height: 100vh; }
+  #gtfobin-table-wrapper #gtfobin-table {
+    width: 100%;
+    border-spacing: 0; }
+    #gtfobin-table-wrapper #gtfobin-table, #gtfobin-table-wrapper #gtfobin-table th, #gtfobin-table-wrapper #gtfobin-table td {
+      border: none; }
+    #gtfobin-table-wrapper #gtfobin-table thead th {
+      padding: 1em;
+      text-align: left; }
+      #gtfobin-table-wrapper #gtfobin-table thead th:last-child {
+        width: 100%; }
+    #gtfobin-table-wrapper #gtfobin-table tbody th {
+      padding: 0 1em;
+      font-family: monospace;
+      white-space: nowrap;
+      font-weight: normal;
+      text-align: left; }
+      #gtfobin-table-wrapper #gtfobin-table tbody th a {
+        text-decoration: none; }
+    #gtfobin-table-wrapper #gtfobin-table tbody td {
+      padding: 0.5em 1em; }
+    #gtfobin-table-wrapper #gtfobin-table tbody tr:hover {
+      background: var(--lighter); }
+    #gtfobin-table-wrapper #gtfobin-table tfoot {
+      text-align: center;
+      padding: 1em; }
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  list-style: none;
+  column-gap: 0.25em;
+  row-gap: 0.25em;
+  padding: 0;
+  margin: 0; }
+  .tag-list li a {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    border: 1px solid #bf0707; }
+  .tag-list li a:link, .tag-list li a:visited {
+    color: #bf0707;
+    text-decoration: none; }
+  .tag-list li a:hover {
+    color: var(--hover);
+    border-color: var(--hover); }
+  .tag-list li.match a {
+    background: var(--marked); }
+    .tag-list li.match a[data-matching-contexts]::after {
+      content: " (" attr(data-matching-contexts) ")"; }
+  .tag-list li.inherit a {
+    border-style: dashed; }
+
+.examples {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  counter-reset: item;
+  margin: 0;
+  padding: 0; }
+  .examples > li {
+    display: table-row; }
+    .examples > li:before {
+      display: table-cell;
+      font-size: 14px;
+      font-weight: bold;
+      width: 3em;
+      text-align: center;
+      counter-increment: item;
+      content: "(" counter(item,lower-alpha) ")"; }
+
+.contexts {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em 0; }
+  .contexts input[type=radio] {
+    display: none; }
+    .contexts input[type=radio]:checked + label {
+      color: #bf0707;
+      background: var(--background);
+      cursor: auto; }
+    .contexts input[type=radio]:checked + label + div {
+      display: block; }
+  .contexts > label {
+    font-size: 14px;
+    margin-left: 0.5em;
+    padding: 0.25em 0.5em;
+    border: 1px solid var(--faint);
+    border-bottom: none;
+    cursor: pointer;
+    position: relative;
+    top: 1px; }
+    .contexts > label:hover {
+      color: var(--hover); }
+  .contexts > div {
+    display: none;
+    flex-basis: 100%;
+    width: 0px;
+    order: 999;
+    padding: 0 1em;
+    border: 1px solid var(--faint); }
+
+.description-table {
+  border-collapse: collapse; }
+  .description-table tbody th {
+    white-space: nowrap;
+    text-align: right; }
+  .description-table tbody th, .description-table tbody td {
+    border: 1px solid var(--foreground);
+    padding: 0 0.5em; }
+
+.accent {
+  color: #bf0707; }
+
+.hidden {
+  display: none; }
+
+.logo {
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  pointer-events: none;
+  background-color: #ffffff;
+  border: 1px solid #ffffff; }
+
+.small {
+  font-size: 14px; }
+
+.centered {
+  text-align: center; }
+
+svg.github-corner {
+  fill: var(--foreground);
+  color: var(--background); }

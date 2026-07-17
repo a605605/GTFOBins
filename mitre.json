@@ -1,0 +1,2115 @@
+{
+    "name": "GTFOBins",
+    "versions": {
+        "attack": "18",
+        "navigator": "5.2.0",
+        "layer": "4.5"
+    },
+    "links": [
+        {
+            "label": "GTFOBins",
+            "url": "http://localhost:4000/"
+        }
+    ],
+    "layout": {
+        "expandedSubtechniques": "annotated"
+    },
+    "domain": "enterprise-attack",
+    "filters": {
+        "platforms": [
+            "Linux",
+            "macOS"
+        ]
+    },
+    "showTacticRowBackground": true,
+    "tacticRowBackground": "#bf0707",
+    "techniques": [{
+                "techniqueID": "T1005",
+                "links": [{
+                            "label": "7z",
+                            "url": "http://localhost:4000/gtfobins/7z/#file-read"
+                        },{
+                            "label": "alpine",
+                            "url": "http://localhost:4000/gtfobins/alpine/#file-read"
+                        },{
+                            "label": "apache2",
+                            "url": "http://localhost:4000/gtfobins/apache2/#file-read"
+                        },{
+                            "label": "apache2ctl",
+                            "url": "http://localhost:4000/gtfobins/apache2ctl/#file-read"
+                        },{
+                            "label": "ar",
+                            "url": "http://localhost:4000/gtfobins/ar/#file-read"
+                        },{
+                            "label": "aria2c",
+                            "url": "http://localhost:4000/gtfobins/aria2c/#file-read"
+                        },{
+                            "label": "arj",
+                            "url": "http://localhost:4000/gtfobins/arj/#file-read"
+                        },{
+                            "label": "arp",
+                            "url": "http://localhost:4000/gtfobins/arp/#file-read"
+                        },{
+                            "label": "as",
+                            "url": "http://localhost:4000/gtfobins/as/#file-read"
+                        },{
+                            "label": "ascii-xfr",
+                            "url": "http://localhost:4000/gtfobins/ascii-xfr/#file-read"
+                        },{
+                            "label": "ascii85",
+                            "url": "http://localhost:4000/gtfobins/ascii85/#file-read"
+                        },{
+                            "label": "aspell",
+                            "url": "http://localhost:4000/gtfobins/aspell/#file-read"
+                        },{
+                            "label": "atobm",
+                            "url": "http://localhost:4000/gtfobins/atobm/#file-read"
+                        },{
+                            "label": "aws",
+                            "url": "http://localhost:4000/gtfobins/aws/#file-read"
+                        },{
+                            "label": "base32",
+                            "url": "http://localhost:4000/gtfobins/base32/#file-read"
+                        },{
+                            "label": "base58",
+                            "url": "http://localhost:4000/gtfobins/base58/#file-read"
+                        },{
+                            "label": "base64",
+                            "url": "http://localhost:4000/gtfobins/base64/#file-read"
+                        },{
+                            "label": "basenc",
+                            "url": "http://localhost:4000/gtfobins/basenc/#file-read"
+                        },{
+                            "label": "basez",
+                            "url": "http://localhost:4000/gtfobins/basez/#file-read"
+                        },{
+                            "label": "bash",
+                            "url": "http://localhost:4000/gtfobins/bash/#file-read"
+                        },{
+                            "label": "bbot",
+                            "url": "http://localhost:4000/gtfobins/bbot/#file-read"
+                        },{
+                            "label": "bc",
+                            "url": "http://localhost:4000/gtfobins/bc/#file-read"
+                        },{
+                            "label": "bconsole",
+                            "url": "http://localhost:4000/gtfobins/bconsole/#file-read"
+                        },{
+                            "label": "bridge",
+                            "url": "http://localhost:4000/gtfobins/bridge/#file-read"
+                        },{
+                            "label": "bzip2",
+                            "url": "http://localhost:4000/gtfobins/bzip2/#file-read"
+                        },{
+                            "label": "cat",
+                            "url": "http://localhost:4000/gtfobins/cat/#file-read"
+                        },{
+                            "label": "check_cups",
+                            "url": "http://localhost:4000/gtfobins/check_cups/#file-read"
+                        },{
+                            "label": "check_log",
+                            "url": "http://localhost:4000/gtfobins/check_log/#file-read"
+                        },{
+                            "label": "check_memory",
+                            "url": "http://localhost:4000/gtfobins/check_memory/#file-read"
+                        },{
+                            "label": "check_raid",
+                            "url": "http://localhost:4000/gtfobins/check_raid/#file-read"
+                        },{
+                            "label": "check_statusfile",
+                            "url": "http://localhost:4000/gtfobins/check_statusfile/#file-read"
+                        },{
+                            "label": "clamscan",
+                            "url": "http://localhost:4000/gtfobins/clamscan/#file-read"
+                        },{
+                            "label": "cmake",
+                            "url": "http://localhost:4000/gtfobins/cmake/#file-read"
+                        },{
+                            "label": "cmp",
+                            "url": "http://localhost:4000/gtfobins/cmp/#file-read"
+                        },{
+                            "label": "column",
+                            "url": "http://localhost:4000/gtfobins/column/#file-read"
+                        },{
+                            "label": "comm",
+                            "url": "http://localhost:4000/gtfobins/comm/#file-read"
+                        },{
+                            "label": "cp",
+                            "url": "http://localhost:4000/gtfobins/cp/#file-read"
+                        },{
+                            "label": "cpio",
+                            "url": "http://localhost:4000/gtfobins/cpio/#file-read"
+                        },{
+                            "label": "csplit",
+                            "url": "http://localhost:4000/gtfobins/csplit/#file-read"
+                        },{
+                            "label": "csvtool",
+                            "url": "http://localhost:4000/gtfobins/csvtool/#file-read"
+                        },{
+                            "label": "cupsfilter",
+                            "url": "http://localhost:4000/gtfobins/cupsfilter/#file-read"
+                        },{
+                            "label": "curl",
+                            "url": "http://localhost:4000/gtfobins/curl/#file-read"
+                        },{
+                            "label": "cut",
+                            "url": "http://localhost:4000/gtfobins/cut/#file-read"
+                        },{
+                            "label": "date",
+                            "url": "http://localhost:4000/gtfobins/date/#file-read"
+                        },{
+                            "label": "dd",
+                            "url": "http://localhost:4000/gtfobins/dd/#file-read"
+                        },{
+                            "label": "dialog",
+                            "url": "http://localhost:4000/gtfobins/dialog/#file-read"
+                        },{
+                            "label": "diff",
+                            "url": "http://localhost:4000/gtfobins/diff/#file-read"
+                        },{
+                            "label": "dig",
+                            "url": "http://localhost:4000/gtfobins/dig/#file-read"
+                        },{
+                            "label": "dmesg",
+                            "url": "http://localhost:4000/gtfobins/dmesg/#file-read"
+                        },{
+                            "label": "docker",
+                            "url": "http://localhost:4000/gtfobins/docker/#file-read"
+                        },{
+                            "label": "dos2unix",
+                            "url": "http://localhost:4000/gtfobins/dos2unix/#file-read"
+                        },{
+                            "label": "dosbox",
+                            "url": "http://localhost:4000/gtfobins/dosbox/#file-read"
+                        },{
+                            "label": "dotnet",
+                            "url": "http://localhost:4000/gtfobins/dotnet/#file-read"
+                        },{
+                            "label": "ed",
+                            "url": "http://localhost:4000/gtfobins/ed/#file-read"
+                        },{
+                            "label": "efax",
+                            "url": "http://localhost:4000/gtfobins/efax/#file-read"
+                        },{
+                            "label": "egrep",
+                            "url": "http://localhost:4000/gtfobins/egrep/#file-read"
+                        },{
+                            "label": "elvish",
+                            "url": "http://localhost:4000/gtfobins/elvish/#file-read"
+                        },{
+                            "label": "emacs",
+                            "url": "http://localhost:4000/gtfobins/emacs/#file-read"
+                        },{
+                            "label": "eqn",
+                            "url": "http://localhost:4000/gtfobins/eqn/#file-read"
+                        },{
+                            "label": "espeak",
+                            "url": "http://localhost:4000/gtfobins/espeak/#file-read"
+                        },{
+                            "label": "exiftool",
+                            "url": "http://localhost:4000/gtfobins/exiftool/#file-read"
+                        },{
+                            "label": "expand",
+                            "url": "http://localhost:4000/gtfobins/expand/#file-read"
+                        },{
+                            "label": "expect",
+                            "url": "http://localhost:4000/gtfobins/expect/#file-read"
+                        },{
+                            "label": "fastfetch",
+                            "url": "http://localhost:4000/gtfobins/fastfetch/#file-read"
+                        },{
+                            "label": "fgrep",
+                            "url": "http://localhost:4000/gtfobins/fgrep/#file-read"
+                        },{
+                            "label": "file",
+                            "url": "http://localhost:4000/gtfobins/file/#file-read"
+                        },{
+                            "label": "find",
+                            "url": "http://localhost:4000/gtfobins/find/#file-read"
+                        },{
+                            "label": "fmt",
+                            "url": "http://localhost:4000/gtfobins/fmt/#file-read"
+                        },{
+                            "label": "fold",
+                            "url": "http://localhost:4000/gtfobins/fold/#file-read"
+                        },{
+                            "label": "fping",
+                            "url": "http://localhost:4000/gtfobins/fping/#file-read"
+                        },{
+                            "label": "gawk",
+                            "url": "http://localhost:4000/gtfobins/gawk/#file-read"
+                        },{
+                            "label": "gcc",
+                            "url": "http://localhost:4000/gtfobins/gcc/#file-read"
+                        },{
+                            "label": "gcore",
+                            "url": "http://localhost:4000/gtfobins/gcore/#file-read"
+                        },{
+                            "label": "genisoimage",
+                            "url": "http://localhost:4000/gtfobins/genisoimage/#file-read"
+                        },{
+                            "label": "git",
+                            "url": "http://localhost:4000/gtfobins/git/#file-read"
+                        },{
+                            "label": "go",
+                            "url": "http://localhost:4000/gtfobins/go/#file-read"
+                        },{
+                            "label": "grep",
+                            "url": "http://localhost:4000/gtfobins/grep/#file-read"
+                        },{
+                            "label": "gzip",
+                            "url": "http://localhost:4000/gtfobins/gzip/#file-read"
+                        },{
+                            "label": "head",
+                            "url": "http://localhost:4000/gtfobins/head/#file-read"
+                        },{
+                            "label": "hexdump",
+                            "url": "http://localhost:4000/gtfobins/hexdump/#file-read"
+                        },{
+                            "label": "highlight",
+                            "url": "http://localhost:4000/gtfobins/highlight/#file-read"
+                        },{
+                            "label": "iconv",
+                            "url": "http://localhost:4000/gtfobins/iconv/#file-read"
+                        },{
+                            "label": "ip",
+                            "url": "http://localhost:4000/gtfobins/ip/#file-read"
+                        },{
+                            "label": "jjs",
+                            "url": "http://localhost:4000/gtfobins/jjs/#file-read"
+                        },{
+                            "label": "join",
+                            "url": "http://localhost:4000/gtfobins/join/#file-read"
+                        },{
+                            "label": "jq",
+                            "url": "http://localhost:4000/gtfobins/jq/#file-read"
+                        },{
+                            "label": "jrunscript",
+                            "url": "http://localhost:4000/gtfobins/jrunscript/#file-read"
+                        },{
+                            "label": "jshell",
+                            "url": "http://localhost:4000/gtfobins/jshell/#file-read"
+                        },{
+                            "label": "julia",
+                            "url": "http://localhost:4000/gtfobins/julia/#file-read"
+                        },{
+                            "label": "ksshell",
+                            "url": "http://localhost:4000/gtfobins/ksshell/#file-read"
+                        },{
+                            "label": "last",
+                            "url": "http://localhost:4000/gtfobins/last/#file-read"
+                        },{
+                            "label": "latex",
+                            "url": "http://localhost:4000/gtfobins/latex/#file-read"
+                        },{
+                            "label": "latexmk",
+                            "url": "http://localhost:4000/gtfobins/latexmk/#file-read"
+                        },{
+                            "label": "less",
+                            "url": "http://localhost:4000/gtfobins/less/#file-read"
+                        },{
+                            "label": "links",
+                            "url": "http://localhost:4000/gtfobins/links/#file-read"
+                        },{
+                            "label": "logrotate",
+                            "url": "http://localhost:4000/gtfobins/logrotate/#file-read"
+                        },{
+                            "label": "look",
+                            "url": "http://localhost:4000/gtfobins/look/#file-read"
+                        },{
+                            "label": "ltrace",
+                            "url": "http://localhost:4000/gtfobins/ltrace/#file-read"
+                        },{
+                            "label": "lua",
+                            "url": "http://localhost:4000/gtfobins/lua/#file-read"
+                        },{
+                            "label": "lwp-download",
+                            "url": "http://localhost:4000/gtfobins/lwp-download/#file-read"
+                        },{
+                            "label": "lwp-request",
+                            "url": "http://localhost:4000/gtfobins/lwp-request/#file-read"
+                        },{
+                            "label": "m4",
+                            "url": "http://localhost:4000/gtfobins/m4/#file-read"
+                        },{
+                            "label": "make",
+                            "url": "http://localhost:4000/gtfobins/make/#file-read"
+                        },{
+                            "label": "man",
+                            "url": "http://localhost:4000/gtfobins/man/#file-read"
+                        },{
+                            "label": "mawk",
+                            "url": "http://localhost:4000/gtfobins/mawk/#file-read"
+                        },{
+                            "label": "more",
+                            "url": "http://localhost:4000/gtfobins/more/#file-read"
+                        },{
+                            "label": "mosquitto",
+                            "url": "http://localhost:4000/gtfobins/mosquitto/#file-read"
+                        },{
+                            "label": "msgattrib",
+                            "url": "http://localhost:4000/gtfobins/msgattrib/#file-read"
+                        },{
+                            "label": "msgcat",
+                            "url": "http://localhost:4000/gtfobins/msgcat/#file-read"
+                        },{
+                            "label": "msgconv",
+                            "url": "http://localhost:4000/gtfobins/msgconv/#file-read"
+                        },{
+                            "label": "msgfilter",
+                            "url": "http://localhost:4000/gtfobins/msgfilter/#file-read"
+                        },{
+                            "label": "msgmerge",
+                            "url": "http://localhost:4000/gtfobins/msgmerge/#file-read"
+                        },{
+                            "label": "msguniq",
+                            "url": "http://localhost:4000/gtfobins/msguniq/#file-read"
+                        },{
+                            "label": "mtr",
+                            "url": "http://localhost:4000/gtfobins/mtr/#file-read"
+                        },{
+                            "label": "mutt",
+                            "url": "http://localhost:4000/gtfobins/mutt/#file-read"
+                        },{
+                            "label": "mypy",
+                            "url": "http://localhost:4000/gtfobins/mypy/#file-read"
+                        },{
+                            "label": "nano",
+                            "url": "http://localhost:4000/gtfobins/nano/#file-read"
+                        },{
+                            "label": "nasm",
+                            "url": "http://localhost:4000/gtfobins/nasm/#file-read"
+                        },{
+                            "label": "neofetch",
+                            "url": "http://localhost:4000/gtfobins/neofetch/#file-read"
+                        },{
+                            "label": "nft",
+                            "url": "http://localhost:4000/gtfobins/nft/#file-read"
+                        },{
+                            "label": "nl",
+                            "url": "http://localhost:4000/gtfobins/nl/#file-read"
+                        },{
+                            "label": "nm",
+                            "url": "http://localhost:4000/gtfobins/nm/#file-read"
+                        },{
+                            "label": "nmap",
+                            "url": "http://localhost:4000/gtfobins/nmap/#file-read"
+                        },{
+                            "label": "node",
+                            "url": "http://localhost:4000/gtfobins/node/#file-read"
+                        },{
+                            "label": "nroff",
+                            "url": "http://localhost:4000/gtfobins/nroff/#file-read"
+                        },{
+                            "label": "ntpdate",
+                            "url": "http://localhost:4000/gtfobins/ntpdate/#file-read"
+                        },{
+                            "label": "octave",
+                            "url": "http://localhost:4000/gtfobins/octave/#file-read"
+                        },{
+                            "label": "od",
+                            "url": "http://localhost:4000/gtfobins/od/#file-read"
+                        },{
+                            "label": "openssl",
+                            "url": "http://localhost:4000/gtfobins/openssl/#file-read"
+                        },{
+                            "label": "openvpn",
+                            "url": "http://localhost:4000/gtfobins/openvpn/#file-read"
+                        },{
+                            "label": "pandoc",
+                            "url": "http://localhost:4000/gtfobins/pandoc/#file-read"
+                        },{
+                            "label": "paste",
+                            "url": "http://localhost:4000/gtfobins/paste/#file-read"
+                        },{
+                            "label": "pax",
+                            "url": "http://localhost:4000/gtfobins/pax/#file-read"
+                        },{
+                            "label": "pdflatex",
+                            "url": "http://localhost:4000/gtfobins/pdflatex/#file-read"
+                        },{
+                            "label": "perl",
+                            "url": "http://localhost:4000/gtfobins/perl/#file-read"
+                        },{
+                            "label": "pg",
+                            "url": "http://localhost:4000/gtfobins/pg/#file-read"
+                        },{
+                            "label": "php",
+                            "url": "http://localhost:4000/gtfobins/php/#file-read"
+                        },{
+                            "label": "pic",
+                            "url": "http://localhost:4000/gtfobins/pic/#file-read"
+                        },{
+                            "label": "pr",
+                            "url": "http://localhost:4000/gtfobins/pr/#file-read"
+                        },{
+                            "label": "ptx",
+                            "url": "http://localhost:4000/gtfobins/ptx/#file-read"
+                        },{
+                            "label": "puppet",
+                            "url": "http://localhost:4000/gtfobins/puppet/#file-read"
+                        },{
+                            "label": "pygmentize",
+                            "url": "http://localhost:4000/gtfobins/pygmentize/#file-read"
+                        },{
+                            "label": "pyright",
+                            "url": "http://localhost:4000/gtfobins/pyright/#file-read"
+                        },{
+                            "label": "python",
+                            "url": "http://localhost:4000/gtfobins/python/#file-read"
+                        },{
+                            "label": "qpdf",
+                            "url": "http://localhost:4000/gtfobins/qpdf/#file-read"
+                        },{
+                            "label": "rake",
+                            "url": "http://localhost:4000/gtfobins/rake/#file-read"
+                        },{
+                            "label": "readelf",
+                            "url": "http://localhost:4000/gtfobins/readelf/#file-read"
+                        },{
+                            "label": "redcarpet",
+                            "url": "http://localhost:4000/gtfobins/redcarpet/#file-read"
+                        },{
+                            "label": "rev",
+                            "url": "http://localhost:4000/gtfobins/rev/#file-read"
+                        },{
+                            "label": "ruby",
+                            "url": "http://localhost:4000/gtfobins/ruby/#file-read"
+                        },{
+                            "label": "rustc",
+                            "url": "http://localhost:4000/gtfobins/rustc/#file-read"
+                        },{
+                            "label": "rustdoc",
+                            "url": "http://localhost:4000/gtfobins/rustdoc/#file-read"
+                        },{
+                            "label": "rustfmt",
+                            "url": "http://localhost:4000/gtfobins/rustfmt/#file-read"
+                        },{
+                            "label": "sed",
+                            "url": "http://localhost:4000/gtfobins/sed/#file-read"
+                        },{
+                            "label": "shuf",
+                            "url": "http://localhost:4000/gtfobins/shuf/#file-read"
+                        },{
+                            "label": "socat",
+                            "url": "http://localhost:4000/gtfobins/socat/#file-read"
+                        },{
+                            "label": "soelim",
+                            "url": "http://localhost:4000/gtfobins/soelim/#file-read"
+                        },{
+                            "label": "sort",
+                            "url": "http://localhost:4000/gtfobins/sort/#file-read"
+                        },{
+                            "label": "split",
+                            "url": "http://localhost:4000/gtfobins/split/#file-read"
+                        },{
+                            "label": "sqlite3",
+                            "url": "http://localhost:4000/gtfobins/sqlite3/#file-read"
+                        },{
+                            "label": "ss",
+                            "url": "http://localhost:4000/gtfobins/ss/#file-read"
+                        },{
+                            "label": "ssh",
+                            "url": "http://localhost:4000/gtfobins/ssh/#file-read"
+                        },{
+                            "label": "ssh-copy-id",
+                            "url": "http://localhost:4000/gtfobins/ssh-copy-id/#file-read"
+                        },{
+                            "label": "ssh-keyscan",
+                            "url": "http://localhost:4000/gtfobins/ssh-keyscan/#file-read"
+                        },{
+                            "label": "strings",
+                            "url": "http://localhost:4000/gtfobins/strings/#file-read"
+                        },{
+                            "label": "sysctl",
+                            "url": "http://localhost:4000/gtfobins/sysctl/#file-read"
+                        },{
+                            "label": "tac",
+                            "url": "http://localhost:4000/gtfobins/tac/#file-read"
+                        },{
+                            "label": "tail",
+                            "url": "http://localhost:4000/gtfobins/tail/#file-read"
+                        },{
+                            "label": "tar",
+                            "url": "http://localhost:4000/gtfobins/tar/#file-read"
+                        },{
+                            "label": "tbl",
+                            "url": "http://localhost:4000/gtfobins/tbl/#file-read"
+                        },{
+                            "label": "terraform",
+                            "url": "http://localhost:4000/gtfobins/terraform/#file-read"
+                        },{
+                            "label": "tic",
+                            "url": "http://localhost:4000/gtfobins/tic/#file-read"
+                        },{
+                            "label": "tmux",
+                            "url": "http://localhost:4000/gtfobins/tmux/#file-read"
+                        },{
+                            "label": "troff",
+                            "url": "http://localhost:4000/gtfobins/troff/#file-read"
+                        },{
+                            "label": "tsc",
+                            "url": "http://localhost:4000/gtfobins/tsc/#file-read"
+                        },{
+                            "label": "ul",
+                            "url": "http://localhost:4000/gtfobins/ul/#file-read"
+                        },{
+                            "label": "unexpand",
+                            "url": "http://localhost:4000/gtfobins/unexpand/#file-read"
+                        },{
+                            "label": "uniq",
+                            "url": "http://localhost:4000/gtfobins/uniq/#file-read"
+                        },{
+                            "label": "urlget",
+                            "url": "http://localhost:4000/gtfobins/urlget/#file-read"
+                        },{
+                            "label": "uuencode",
+                            "url": "http://localhost:4000/gtfobins/uuencode/#file-read"
+                        },{
+                            "label": "vi",
+                            "url": "http://localhost:4000/gtfobins/vi/#file-read"
+                        },{
+                            "label": "vim",
+                            "url": "http://localhost:4000/gtfobins/vim/#file-read"
+                        },{
+                            "label": "w3m",
+                            "url": "http://localhost:4000/gtfobins/w3m/#file-read"
+                        },{
+                            "label": "wall",
+                            "url": "http://localhost:4000/gtfobins/wall/#file-read"
+                        },{
+                            "label": "wc",
+                            "url": "http://localhost:4000/gtfobins/wc/#file-read"
+                        },{
+                            "label": "wget",
+                            "url": "http://localhost:4000/gtfobins/wget/#file-read"
+                        },{
+                            "label": "whiptail",
+                            "url": "http://localhost:4000/gtfobins/whiptail/#file-read"
+                        },{
+                            "label": "xargs",
+                            "url": "http://localhost:4000/gtfobins/xargs/#file-read"
+                        },{
+                            "label": "xmodmap",
+                            "url": "http://localhost:4000/gtfobins/xmodmap/#file-read"
+                        },{
+                            "label": "xmore",
+                            "url": "http://localhost:4000/gtfobins/xmore/#file-read"
+                        },{
+                            "label": "xpad",
+                            "url": "http://localhost:4000/gtfobins/xpad/#file-read"
+                        },{
+                            "label": "xxd",
+                            "url": "http://localhost:4000/gtfobins/xxd/#file-read"
+                        },{
+                            "label": "xz",
+                            "url": "http://localhost:4000/gtfobins/xz/#file-read"
+                        },{
+                            "label": "yelp",
+                            "url": "http://localhost:4000/gtfobins/yelp/#file-read"
+                        },{
+                            "label": "zcat",
+                            "url": "http://localhost:4000/gtfobins/zcat/#file-read"
+                        },{
+                            "label": "zgrep",
+                            "url": "http://localhost:4000/gtfobins/zgrep/#file-read"
+                        },{
+                            "label": "zip",
+                            "url": "http://localhost:4000/gtfobins/zip/#file-read"
+                        },{
+                            "label": "zsh",
+                            "url": "http://localhost:4000/gtfobins/zsh/#file-read"
+                        },{
+                            "label": "zsoelim",
+                            "url": "http://localhost:4000/gtfobins/zsoelim/#file-read"
+                        }]
+            },{
+                "techniqueID": "T1059",
+                "links": [{
+                            "label": "R",
+                            "url": "http://localhost:4000/gtfobins/R/#shell"
+                        },{
+                            "label": "aa-exec",
+                            "url": "http://localhost:4000/gtfobins/aa-exec/#shell"
+                        },{
+                            "label": "acr",
+                            "url": "http://localhost:4000/gtfobins/acr/#command"
+                        },{
+                            "label": "agetty",
+                            "url": "http://localhost:4000/gtfobins/agetty/#shell"
+                        },{
+                            "label": "ansible-playbook",
+                            "url": "http://localhost:4000/gtfobins/ansible-playbook/#shell"
+                        },{
+                            "label": "ansible-test",
+                            "url": "http://localhost:4000/gtfobins/ansible-test/#shell"
+                        },{
+                            "label": "aoss",
+                            "url": "http://localhost:4000/gtfobins/aoss/#shell"
+                        },{
+                            "label": "apt-get",
+                            "url": "http://localhost:4000/gtfobins/apt-get/#shell"
+                        },{
+                            "label": "arch-nspawn",
+                            "url": "http://localhost:4000/gtfobins/arch-nspawn/#shell"
+                        },{
+                            "label": "aria2c",
+                            "url": "http://localhost:4000/gtfobins/aria2c/#command"
+                        },{
+                            "label": "ash",
+                            "url": "http://localhost:4000/gtfobins/ash/#shell"
+                        },{
+                            "label": "asterisk",
+                            "url": "http://localhost:4000/gtfobins/asterisk/#shell"
+                        },{
+                            "label": "at",
+                            "url": "http://localhost:4000/gtfobins/at/#command"
+                        },{
+                            "label": "at",
+                            "url": "http://localhost:4000/gtfobins/at/#shell"
+                        },{
+                            "label": "autoconf",
+                            "url": "http://localhost:4000/gtfobins/autoconf/#shell"
+                        },{
+                            "label": "autoheader",
+                            "url": "http://localhost:4000/gtfobins/autoheader/#shell"
+                        },{
+                            "label": "autoreconf",
+                            "url": "http://localhost:4000/gtfobins/autoreconf/#shell"
+                        },{
+                            "label": "bash",
+                            "url": "http://localhost:4000/gtfobins/bash/#reverse-shell"
+                        },{
+                            "label": "bash",
+                            "url": "http://localhost:4000/gtfobins/bash/#shell"
+                        },{
+                            "label": "bconsole",
+                            "url": "http://localhost:4000/gtfobins/bconsole/#shell"
+                        },{
+                            "label": "borg",
+                            "url": "http://localhost:4000/gtfobins/borg/#shell"
+                        },{
+                            "label": "bpftrace",
+                            "url": "http://localhost:4000/gtfobins/bpftrace/#shell"
+                        },{
+                            "label": "bundle",
+                            "url": "http://localhost:4000/gtfobins/bundle/#shell"
+                        },{
+                            "label": "busctl",
+                            "url": "http://localhost:4000/gtfobins/busctl/#shell"
+                        },{
+                            "label": "busybox",
+                            "url": "http://localhost:4000/gtfobins/busybox/#reverse-shell"
+                        },{
+                            "label": "cabal",
+                            "url": "http://localhost:4000/gtfobins/cabal/#shell"
+                        },{
+                            "label": "capsh",
+                            "url": "http://localhost:4000/gtfobins/capsh/#shell"
+                        },{
+                            "label": "cdist",
+                            "url": "http://localhost:4000/gtfobins/cdist/#shell"
+                        },{
+                            "label": "certbot",
+                            "url": "http://localhost:4000/gtfobins/certbot/#shell"
+                        },{
+                            "label": "check_by_ssh",
+                            "url": "http://localhost:4000/gtfobins/check_by_ssh/#shell"
+                        },{
+                            "label": "check_ssl_cert",
+                            "url": "http://localhost:4000/gtfobins/check_ssl_cert/#shell"
+                        },{
+                            "label": "choom",
+                            "url": "http://localhost:4000/gtfobins/choom/#shell"
+                        },{
+                            "label": "chroot",
+                            "url": "http://localhost:4000/gtfobins/chroot/#shell"
+                        },{
+                            "label": "chrt",
+                            "url": "http://localhost:4000/gtfobins/chrt/#shell"
+                        },{
+                            "label": "clisp",
+                            "url": "http://localhost:4000/gtfobins/clisp/#shell"
+                        },{
+                            "label": "cmake",
+                            "url": "http://localhost:4000/gtfobins/cmake/#shell"
+                        },{
+                            "label": "cobc",
+                            "url": "http://localhost:4000/gtfobins/cobc/#shell"
+                        },{
+                            "label": "code",
+                            "url": "http://localhost:4000/gtfobins/code/#reverse-shell"
+                        },{
+                            "label": "codex",
+                            "url": "http://localhost:4000/gtfobins/codex/#shell"
+                        },{
+                            "label": "composer",
+                            "url": "http://localhost:4000/gtfobins/composer/#shell"
+                        },{
+                            "label": "cpio",
+                            "url": "http://localhost:4000/gtfobins/cpio/#shell"
+                        },{
+                            "label": "cpulimit",
+                            "url": "http://localhost:4000/gtfobins/cpulimit/#shell"
+                        },{
+                            "label": "crash",
+                            "url": "http://localhost:4000/gtfobins/crash/#command"
+                        },{
+                            "label": "crontab",
+                            "url": "http://localhost:4000/gtfobins/crontab/#command"
+                        },{
+                            "label": "csh",
+                            "url": "http://localhost:4000/gtfobins/csh/#shell"
+                        },{
+                            "label": "csvtool",
+                            "url": "http://localhost:4000/gtfobins/csvtool/#shell"
+                        },{
+                            "label": "ctr",
+                            "url": "http://localhost:4000/gtfobins/ctr/#shell"
+                        },{
+                            "label": "dash",
+                            "url": "http://localhost:4000/gtfobins/dash/#shell"
+                        },{
+                            "label": "dc",
+                            "url": "http://localhost:4000/gtfobins/dc/#shell"
+                        },{
+                            "label": "debugfs",
+                            "url": "http://localhost:4000/gtfobins/debugfs/#shell"
+                        },{
+                            "label": "dhclient",
+                            "url": "http://localhost:4000/gtfobins/dhclient/#shell"
+                        },{
+                            "label": "distcc",
+                            "url": "http://localhost:4000/gtfobins/distcc/#shell"
+                        },{
+                            "label": "dmsetup",
+                            "url": "http://localhost:4000/gtfobins/dmsetup/#shell"
+                        },{
+                            "label": "dnf",
+                            "url": "http://localhost:4000/gtfobins/dnf/#command"
+                        },{
+                            "label": "dnsmasq",
+                            "url": "http://localhost:4000/gtfobins/dnsmasq/#command"
+                        },{
+                            "label": "doas",
+                            "url": "http://localhost:4000/gtfobins/doas/#shell"
+                        },{
+                            "label": "docker",
+                            "url": "http://localhost:4000/gtfobins/docker/#shell"
+                        },{
+                            "label": "dotnet",
+                            "url": "http://localhost:4000/gtfobins/dotnet/#shell"
+                        },{
+                            "label": "dpkg",
+                            "url": "http://localhost:4000/gtfobins/dpkg/#shell"
+                        },{
+                            "label": "dvips",
+                            "url": "http://localhost:4000/gtfobins/dvips/#shell"
+                        },{
+                            "label": "easyrsa",
+                            "url": "http://localhost:4000/gtfobins/easyrsa/#shell"
+                        },{
+                            "label": "ed",
+                            "url": "http://localhost:4000/gtfobins/ed/#shell"
+                        },{
+                            "label": "elvish",
+                            "url": "http://localhost:4000/gtfobins/elvish/#shell"
+                        },{
+                            "label": "emacs",
+                            "url": "http://localhost:4000/gtfobins/emacs/#shell"
+                        },{
+                            "label": "enscript",
+                            "url": "http://localhost:4000/gtfobins/enscript/#shell"
+                        },{
+                            "label": "env",
+                            "url": "http://localhost:4000/gtfobins/env/#shell"
+                        },{
+                            "label": "ex",
+                            "url": "http://localhost:4000/gtfobins/ex/#shell"
+                        },{
+                            "label": "expect",
+                            "url": "http://localhost:4000/gtfobins/expect/#shell"
+                        },{
+                            "label": "fail2ban-client",
+                            "url": "http://localhost:4000/gtfobins/fail2ban-client/#command"
+                        },{
+                            "label": "fastfetch",
+                            "url": "http://localhost:4000/gtfobins/fastfetch/#command"
+                        },{
+                            "label": "fastfetch",
+                            "url": "http://localhost:4000/gtfobins/fastfetch/#shell"
+                        },{
+                            "label": "find",
+                            "url": "http://localhost:4000/gtfobins/find/#shell"
+                        },{
+                            "label": "firejail",
+                            "url": "http://localhost:4000/gtfobins/firejail/#shell"
+                        },{
+                            "label": "fish",
+                            "url": "http://localhost:4000/gtfobins/fish/#shell"
+                        },{
+                            "label": "flock",
+                            "url": "http://localhost:4000/gtfobins/flock/#shell"
+                        },{
+                            "label": "forge",
+                            "url": "http://localhost:4000/gtfobins/forge/#shell"
+                        },{
+                            "label": "ftp",
+                            "url": "http://localhost:4000/gtfobins/ftp/#shell"
+                        },{
+                            "label": "fzf",
+                            "url": "http://localhost:4000/gtfobins/fzf/#command"
+                        },{
+                            "label": "fzf",
+                            "url": "http://localhost:4000/gtfobins/fzf/#shell"
+                        },{
+                            "label": "gawk",
+                            "url": "http://localhost:4000/gtfobins/gawk/#bind-shell"
+                        },{
+                            "label": "gawk",
+                            "url": "http://localhost:4000/gtfobins/gawk/#reverse-shell"
+                        },{
+                            "label": "gawk",
+                            "url": "http://localhost:4000/gtfobins/gawk/#shell"
+                        },{
+                            "label": "gcc",
+                            "url": "http://localhost:4000/gtfobins/gcc/#shell"
+                        },{
+                            "label": "gdb",
+                            "url": "http://localhost:4000/gtfobins/gdb/#shell"
+                        },{
+                            "label": "gem",
+                            "url": "http://localhost:4000/gtfobins/gem/#shell"
+                        },{
+                            "label": "genie",
+                            "url": "http://localhost:4000/gtfobins/genie/#shell"
+                        },{
+                            "label": "ghc",
+                            "url": "http://localhost:4000/gtfobins/ghc/#shell"
+                        },{
+                            "label": "ghci",
+                            "url": "http://localhost:4000/gtfobins/ghci/#shell"
+                        },{
+                            "label": "ginsh",
+                            "url": "http://localhost:4000/gtfobins/ginsh/#shell"
+                        },{
+                            "label": "git",
+                            "url": "http://localhost:4000/gtfobins/git/#shell"
+                        },{
+                            "label": "gnuplot",
+                            "url": "http://localhost:4000/gtfobins/gnuplot/#shell"
+                        },{
+                            "label": "go",
+                            "url": "http://localhost:4000/gtfobins/go/#bind-shell"
+                        },{
+                            "label": "go",
+                            "url": "http://localhost:4000/gtfobins/go/#reverse-shell"
+                        },{
+                            "label": "go",
+                            "url": "http://localhost:4000/gtfobins/go/#shell"
+                        },{
+                            "label": "grc",
+                            "url": "http://localhost:4000/gtfobins/grc/#shell"
+                        },{
+                            "label": "gtester",
+                            "url": "http://localhost:4000/gtfobins/gtester/#shell"
+                        },{
+                            "label": "guile",
+                            "url": "http://localhost:4000/gtfobins/guile/#shell"
+                        },{
+                            "label": "hg",
+                            "url": "http://localhost:4000/gtfobins/hg/#shell"
+                        },{
+                            "label": "hping3",
+                            "url": "http://localhost:4000/gtfobins/hping3/#shell"
+                        },{
+                            "label": "iftop",
+                            "url": "http://localhost:4000/gtfobins/iftop/#shell"
+                        },{
+                            "label": "ionice",
+                            "url": "http://localhost:4000/gtfobins/ionice/#shell"
+                        },{
+                            "label": "ip",
+                            "url": "http://localhost:4000/gtfobins/ip/#shell"
+                        },{
+                            "label": "ispell",
+                            "url": "http://localhost:4000/gtfobins/ispell/#shell"
+                        },{
+                            "label": "java",
+                            "url": "http://localhost:4000/gtfobins/java/#shell"
+                        },{
+                            "label": "jjs",
+                            "url": "http://localhost:4000/gtfobins/jjs/#reverse-shell"
+                        },{
+                            "label": "jjs",
+                            "url": "http://localhost:4000/gtfobins/jjs/#shell"
+                        },{
+                            "label": "joe",
+                            "url": "http://localhost:4000/gtfobins/joe/#shell"
+                        },{
+                            "label": "jrunscript",
+                            "url": "http://localhost:4000/gtfobins/jrunscript/#reverse-shell"
+                        },{
+                            "label": "jrunscript",
+                            "url": "http://localhost:4000/gtfobins/jrunscript/#shell"
+                        },{
+                            "label": "jshell",
+                            "url": "http://localhost:4000/gtfobins/jshell/#shell"
+                        },{
+                            "label": "jtag",
+                            "url": "http://localhost:4000/gtfobins/jtag/#shell"
+                        },{
+                            "label": "julia",
+                            "url": "http://localhost:4000/gtfobins/julia/#reverse-shell"
+                        },{
+                            "label": "julia",
+                            "url": "http://localhost:4000/gtfobins/julia/#shell"
+                        },{
+                            "label": "ksu",
+                            "url": "http://localhost:4000/gtfobins/ksu/#shell"
+                        },{
+                            "label": "kubectl",
+                            "url": "http://localhost:4000/gtfobins/kubectl/#shell"
+                        },{
+                            "label": "latex",
+                            "url": "http://localhost:4000/gtfobins/latex/#shell"
+                        },{
+                            "label": "latexmk",
+                            "url": "http://localhost:4000/gtfobins/latexmk/#shell"
+                        },{
+                            "label": "ld.so",
+                            "url": "http://localhost:4000/gtfobins/ld/#shell"
+                        },{
+                            "label": "less",
+                            "url": "http://localhost:4000/gtfobins/less/#command"
+                        },{
+                            "label": "less",
+                            "url": "http://localhost:4000/gtfobins/less/#shell"
+                        },{
+                            "label": "lftp",
+                            "url": "http://localhost:4000/gtfobins/lftp/#shell"
+                        },{
+                            "label": "loginctl",
+                            "url": "http://localhost:4000/gtfobins/loginctl/#shell"
+                        },{
+                            "label": "logrotate",
+                            "url": "http://localhost:4000/gtfobins/logrotate/#shell"
+                        },{
+                            "label": "logsave",
+                            "url": "http://localhost:4000/gtfobins/logsave/#shell"
+                        },{
+                            "label": "ltrace",
+                            "url": "http://localhost:4000/gtfobins/ltrace/#shell"
+                        },{
+                            "label": "lua",
+                            "url": "http://localhost:4000/gtfobins/lua/#bind-shell"
+                        },{
+                            "label": "lua",
+                            "url": "http://localhost:4000/gtfobins/lua/#reverse-shell"
+                        },{
+                            "label": "lua",
+                            "url": "http://localhost:4000/gtfobins/lua/#shell"
+                        },{
+                            "label": "lxd",
+                            "url": "http://localhost:4000/gtfobins/lxd/#shell"
+                        },{
+                            "label": "m4",
+                            "url": "http://localhost:4000/gtfobins/m4/#command"
+                        },{
+                            "label": "m4",
+                            "url": "http://localhost:4000/gtfobins/m4/#shell"
+                        },{
+                            "label": "mail",
+                            "url": "http://localhost:4000/gtfobins/mail/#shell"
+                        },{
+                            "label": "make",
+                            "url": "http://localhost:4000/gtfobins/make/#shell"
+                        },{
+                            "label": "man",
+                            "url": "http://localhost:4000/gtfobins/man/#shell"
+                        },{
+                            "label": "mawk",
+                            "url": "http://localhost:4000/gtfobins/mawk/#shell"
+                        },{
+                            "label": "minicom",
+                            "url": "http://localhost:4000/gtfobins/minicom/#shell"
+                        },{
+                            "label": "more",
+                            "url": "http://localhost:4000/gtfobins/more/#shell"
+                        },{
+                            "label": "mosh-server",
+                            "url": "http://localhost:4000/gtfobins/mosh-server/#shell"
+                        },{
+                            "label": "msgfilter",
+                            "url": "http://localhost:4000/gtfobins/msgfilter/#shell"
+                        },{
+                            "label": "multitime",
+                            "url": "http://localhost:4000/gtfobins/multitime/#shell"
+                        },{
+                            "label": "mysql",
+                            "url": "http://localhost:4000/gtfobins/mysql/#shell"
+                        },{
+                            "label": "nano",
+                            "url": "http://localhost:4000/gtfobins/nano/#shell"
+                        },{
+                            "label": "nc",
+                            "url": "http://localhost:4000/gtfobins/nc/#bind-shell"
+                        },{
+                            "label": "nc",
+                            "url": "http://localhost:4000/gtfobins/nc/#reverse-shell"
+                        },{
+                            "label": "ncdu",
+                            "url": "http://localhost:4000/gtfobins/ncdu/#shell"
+                        },{
+                            "label": "ncftp",
+                            "url": "http://localhost:4000/gtfobins/ncftp/#shell"
+                        },{
+                            "label": "neofetch",
+                            "url": "http://localhost:4000/gtfobins/neofetch/#shell"
+                        },{
+                            "label": "nice",
+                            "url": "http://localhost:4000/gtfobins/nice/#shell"
+                        },{
+                            "label": "nmap",
+                            "url": "http://localhost:4000/gtfobins/nmap/#shell"
+                        },{
+                            "label": "node",
+                            "url": "http://localhost:4000/gtfobins/node/#bind-shell"
+                        },{
+                            "label": "node",
+                            "url": "http://localhost:4000/gtfobins/node/#reverse-shell"
+                        },{
+                            "label": "node",
+                            "url": "http://localhost:4000/gtfobins/node/#shell"
+                        },{
+                            "label": "nohup",
+                            "url": "http://localhost:4000/gtfobins/nohup/#command"
+                        },{
+                            "label": "nohup",
+                            "url": "http://localhost:4000/gtfobins/nohup/#shell"
+                        },{
+                            "label": "npm",
+                            "url": "http://localhost:4000/gtfobins/npm/#shell"
+                        },{
+                            "label": "nroff",
+                            "url": "http://localhost:4000/gtfobins/nroff/#shell"
+                        },{
+                            "label": "nsenter",
+                            "url": "http://localhost:4000/gtfobins/nsenter/#shell"
+                        },{
+                            "label": "octave",
+                            "url": "http://localhost:4000/gtfobins/octave/#shell"
+                        },{
+                            "label": "opencode",
+                            "url": "http://localhost:4000/gtfobins/opencode/#command"
+                        },{
+                            "label": "openssl",
+                            "url": "http://localhost:4000/gtfobins/openssl/#reverse-shell"
+                        },{
+                            "label": "openvpn",
+                            "url": "http://localhost:4000/gtfobins/openvpn/#shell"
+                        },{
+                            "label": "openvt",
+                            "url": "http://localhost:4000/gtfobins/openvt/#command"
+                        },{
+                            "label": "opkg",
+                            "url": "http://localhost:4000/gtfobins/opkg/#shell"
+                        },{
+                            "label": "pdflatex",
+                            "url": "http://localhost:4000/gtfobins/pdflatex/#shell"
+                        },{
+                            "label": "pdftex",
+                            "url": "http://localhost:4000/gtfobins/pdftex/#shell"
+                        },{
+                            "label": "perf",
+                            "url": "http://localhost:4000/gtfobins/perf/#shell"
+                        },{
+                            "label": "perl",
+                            "url": "http://localhost:4000/gtfobins/perl/#reverse-shell"
+                        },{
+                            "label": "perl",
+                            "url": "http://localhost:4000/gtfobins/perl/#shell"
+                        },{
+                            "label": "perlbug",
+                            "url": "http://localhost:4000/gtfobins/perlbug/#shell"
+                        },{
+                            "label": "pexec",
+                            "url": "http://localhost:4000/gtfobins/pexec/#shell"
+                        },{
+                            "label": "pg",
+                            "url": "http://localhost:4000/gtfobins/pg/#shell"
+                        },{
+                            "label": "php",
+                            "url": "http://localhost:4000/gtfobins/php/#command"
+                        },{
+                            "label": "php",
+                            "url": "http://localhost:4000/gtfobins/php/#reverse-shell"
+                        },{
+                            "label": "php",
+                            "url": "http://localhost:4000/gtfobins/php/#shell"
+                        },{
+                            "label": "pic",
+                            "url": "http://localhost:4000/gtfobins/pic/#shell"
+                        },{
+                            "label": "pidstat",
+                            "url": "http://localhost:4000/gtfobins/pidstat/#shell"
+                        },{
+                            "label": "pip",
+                            "url": "http://localhost:4000/gtfobins/pip/#shell"
+                        },{
+                            "label": "pkexec",
+                            "url": "http://localhost:4000/gtfobins/pkexec/#shell"
+                        },{
+                            "label": "pkg",
+                            "url": "http://localhost:4000/gtfobins/pkg/#command"
+                        },{
+                            "label": "plymouth",
+                            "url": "http://localhost:4000/gtfobins/plymouth/#shell"
+                        },{
+                            "label": "podman",
+                            "url": "http://localhost:4000/gtfobins/podman/#shell"
+                        },{
+                            "label": "posh",
+                            "url": "http://localhost:4000/gtfobins/posh/#shell"
+                        },{
+                            "label": "procmail",
+                            "url": "http://localhost:4000/gtfobins/procmail/#command"
+                        },{
+                            "label": "psftp",
+                            "url": "http://localhost:4000/gtfobins/psftp/#shell"
+                        },{
+                            "label": "psql",
+                            "url": "http://localhost:4000/gtfobins/psql/#shell"
+                        },{
+                            "label": "puppet",
+                            "url": "http://localhost:4000/gtfobins/puppet/#shell"
+                        },{
+                            "label": "pwsh",
+                            "url": "http://localhost:4000/gtfobins/pwsh/#shell"
+                        },{
+                            "label": "python",
+                            "url": "http://localhost:4000/gtfobins/python/#reverse-shell"
+                        },{
+                            "label": "python",
+                            "url": "http://localhost:4000/gtfobins/python/#shell"
+                        },{
+                            "label": "ranger",
+                            "url": "http://localhost:4000/gtfobins/ranger/#shell"
+                        },{
+                            "label": "rc",
+                            "url": "http://localhost:4000/gtfobins/rc/#shell"
+                        },{
+                            "label": "restic",
+                            "url": "http://localhost:4000/gtfobins/restic/#command"
+                        },{
+                            "label": "restic",
+                            "url": "http://localhost:4000/gtfobins/restic/#shell"
+                        },{
+                            "label": "rlwrap",
+                            "url": "http://localhost:4000/gtfobins/rlwrap/#shell"
+                        },{
+                            "label": "rpm",
+                            "url": "http://localhost:4000/gtfobins/rpm/#command"
+                        },{
+                            "label": "rpm",
+                            "url": "http://localhost:4000/gtfobins/rpm/#shell"
+                        },{
+                            "label": "rpmdb",
+                            "url": "http://localhost:4000/gtfobins/rpmdb/#shell"
+                        },{
+                            "label": "rpmquery",
+                            "url": "http://localhost:4000/gtfobins/rpmquery/#shell"
+                        },{
+                            "label": "rpmverify",
+                            "url": "http://localhost:4000/gtfobins/rpmverify/#shell"
+                        },{
+                            "label": "rsync",
+                            "url": "http://localhost:4000/gtfobins/rsync/#shell"
+                        },{
+                            "label": "rsyslogd",
+                            "url": "http://localhost:4000/gtfobins/rsyslogd/#command"
+                        },{
+                            "label": "rtorrent",
+                            "url": "http://localhost:4000/gtfobins/rtorrent/#shell"
+                        },{
+                            "label": "ruby",
+                            "url": "http://localhost:4000/gtfobins/ruby/#reverse-shell"
+                        },{
+                            "label": "ruby",
+                            "url": "http://localhost:4000/gtfobins/ruby/#shell"
+                        },{
+                            "label": "run-parts",
+                            "url": "http://localhost:4000/gtfobins/run-parts/#shell"
+                        },{
+                            "label": "runscript",
+                            "url": "http://localhost:4000/gtfobins/runscript/#shell"
+                        },{
+                            "label": "rustup",
+                            "url": "http://localhost:4000/gtfobins/rustup/#command"
+                        },{
+                            "label": "rustup",
+                            "url": "http://localhost:4000/gtfobins/rustup/#shell"
+                        },{
+                            "label": "sash",
+                            "url": "http://localhost:4000/gtfobins/sash/#shell"
+                        },{
+                            "label": "scanmem",
+                            "url": "http://localhost:4000/gtfobins/scanmem/#shell"
+                        },{
+                            "label": "scp",
+                            "url": "http://localhost:4000/gtfobins/scp/#shell"
+                        },{
+                            "label": "screen",
+                            "url": "http://localhost:4000/gtfobins/screen/#shell"
+                        },{
+                            "label": "script",
+                            "url": "http://localhost:4000/gtfobins/script/#shell"
+                        },{
+                            "label": "scrot",
+                            "url": "http://localhost:4000/gtfobins/scrot/#shell"
+                        },{
+                            "label": "sed",
+                            "url": "http://localhost:4000/gtfobins/sed/#shell"
+                        },{
+                            "label": "service",
+                            "url": "http://localhost:4000/gtfobins/service/#shell"
+                        },{
+                            "label": "setarch",
+                            "url": "http://localhost:4000/gtfobins/setarch/#shell"
+                        },{
+                            "label": "setlock",
+                            "url": "http://localhost:4000/gtfobins/setlock/#shell"
+                        },{
+                            "label": "sftp",
+                            "url": "http://localhost:4000/gtfobins/sftp/#shell"
+                        },{
+                            "label": "sg",
+                            "url": "http://localhost:4000/gtfobins/sg/#shell"
+                        },{
+                            "label": "slsh",
+                            "url": "http://localhost:4000/gtfobins/slsh/#shell"
+                        },{
+                            "label": "smbclient",
+                            "url": "http://localhost:4000/gtfobins/smbclient/#shell"
+                        },{
+                            "label": "snap",
+                            "url": "http://localhost:4000/gtfobins/snap/#command"
+                        },{
+                            "label": "socat",
+                            "url": "http://localhost:4000/gtfobins/socat/#bind-shell"
+                        },{
+                            "label": "socat",
+                            "url": "http://localhost:4000/gtfobins/socat/#reverse-shell"
+                        },{
+                            "label": "socat",
+                            "url": "http://localhost:4000/gtfobins/socat/#shell"
+                        },{
+                            "label": "socket",
+                            "url": "http://localhost:4000/gtfobins/socket/#bind-shell"
+                        },{
+                            "label": "socket",
+                            "url": "http://localhost:4000/gtfobins/socket/#reverse-shell"
+                        },{
+                            "label": "softlimit",
+                            "url": "http://localhost:4000/gtfobins/softlimit/#shell"
+                        },{
+                            "label": "split",
+                            "url": "http://localhost:4000/gtfobins/split/#shell"
+                        },{
+                            "label": "sqlite3",
+                            "url": "http://localhost:4000/gtfobins/sqlite3/#shell"
+                        },{
+                            "label": "ssh",
+                            "url": "http://localhost:4000/gtfobins/ssh/#shell"
+                        },{
+                            "label": "ssh-agent",
+                            "url": "http://localhost:4000/gtfobins/ssh-agent/#shell"
+                        },{
+                            "label": "sshfs",
+                            "url": "http://localhost:4000/gtfobins/sshfs/#command"
+                        },{
+                            "label": "sshfs",
+                            "url": "http://localhost:4000/gtfobins/sshfs/#shell"
+                        },{
+                            "label": "sshpass",
+                            "url": "http://localhost:4000/gtfobins/sshpass/#shell"
+                        },{
+                            "label": "sshuttle",
+                            "url": "http://localhost:4000/gtfobins/sshuttle/#shell"
+                        },{
+                            "label": "start-stop-daemon",
+                            "url": "http://localhost:4000/gtfobins/start-stop-daemon/#shell"
+                        },{
+                            "label": "stdbuf",
+                            "url": "http://localhost:4000/gtfobins/stdbuf/#shell"
+                        },{
+                            "label": "strace",
+                            "url": "http://localhost:4000/gtfobins/strace/#shell"
+                        },{
+                            "label": "su",
+                            "url": "http://localhost:4000/gtfobins/su/#shell"
+                        },{
+                            "label": "sudo",
+                            "url": "http://localhost:4000/gtfobins/sudo/#shell"
+                        },{
+                            "label": "sysctl",
+                            "url": "http://localhost:4000/gtfobins/sysctl/#command"
+                        },{
+                            "label": "systemctl",
+                            "url": "http://localhost:4000/gtfobins/systemctl/#shell"
+                        },{
+                            "label": "systemd-run",
+                            "url": "http://localhost:4000/gtfobins/systemd-run/#command"
+                        },{
+                            "label": "systemd-run",
+                            "url": "http://localhost:4000/gtfobins/systemd-run/#shell"
+                        },{
+                            "label": "tar",
+                            "url": "http://localhost:4000/gtfobins/tar/#shell"
+                        },{
+                            "label": "task",
+                            "url": "http://localhost:4000/gtfobins/task/#shell"
+                        },{
+                            "label": "taskset",
+                            "url": "http://localhost:4000/gtfobins/taskset/#shell"
+                        },{
+                            "label": "tasksh",
+                            "url": "http://localhost:4000/gtfobins/tasksh/#shell"
+                        },{
+                            "label": "tclsh",
+                            "url": "http://localhost:4000/gtfobins/tclsh/#reverse-shell"
+                        },{
+                            "label": "tclsh",
+                            "url": "http://localhost:4000/gtfobins/tclsh/#shell"
+                        },{
+                            "label": "tcpdump",
+                            "url": "http://localhost:4000/gtfobins/tcpdump/#command"
+                        },{
+                            "label": "tcsh",
+                            "url": "http://localhost:4000/gtfobins/tcsh/#shell"
+                        },{
+                            "label": "tdbtool",
+                            "url": "http://localhost:4000/gtfobins/tdbtool/#shell"
+                        },{
+                            "label": "telnet",
+                            "url": "http://localhost:4000/gtfobins/telnet/#reverse-shell"
+                        },{
+                            "label": "telnet",
+                            "url": "http://localhost:4000/gtfobins/telnet/#shell"
+                        },{
+                            "label": "tex",
+                            "url": "http://localhost:4000/gtfobins/tex/#shell"
+                        },{
+                            "label": "time",
+                            "url": "http://localhost:4000/gtfobins/time/#shell"
+                        },{
+                            "label": "timeout",
+                            "url": "http://localhost:4000/gtfobins/timeout/#shell"
+                        },{
+                            "label": "tmate",
+                            "url": "http://localhost:4000/gtfobins/tmate/#shell"
+                        },{
+                            "label": "tmux",
+                            "url": "http://localhost:4000/gtfobins/tmux/#shell"
+                        },{
+                            "label": "top",
+                            "url": "http://localhost:4000/gtfobins/top/#shell"
+                        },{
+                            "label": "torify",
+                            "url": "http://localhost:4000/gtfobins/torify/#shell"
+                        },{
+                            "label": "torsocks",
+                            "url": "http://localhost:4000/gtfobins/torsocks/#shell"
+                        },{
+                            "label": "unshare",
+                            "url": "http://localhost:4000/gtfobins/unshare/#shell"
+                        },{
+                            "label": "uv",
+                            "url": "http://localhost:4000/gtfobins/uv/#shell"
+                        },{
+                            "label": "valgrind",
+                            "url": "http://localhost:4000/gtfobins/valgrind/#shell"
+                        },{
+                            "label": "vi",
+                            "url": "http://localhost:4000/gtfobins/vi/#shell"
+                        },{
+                            "label": "virsh",
+                            "url": "http://localhost:4000/gtfobins/virsh/#command"
+                        },{
+                            "label": "watch",
+                            "url": "http://localhost:4000/gtfobins/watch/#shell"
+                        },{
+                            "label": "wg-quick",
+                            "url": "http://localhost:4000/gtfobins/wg-quick/#shell"
+                        },{
+                            "label": "wget",
+                            "url": "http://localhost:4000/gtfobins/wget/#shell"
+                        },{
+                            "label": "xargs",
+                            "url": "http://localhost:4000/gtfobins/xargs/#shell"
+                        },{
+                            "label": "xdg-user-dir",
+                            "url": "http://localhost:4000/gtfobins/xdg-user-dir/#shell"
+                        },{
+                            "label": "xdotool",
+                            "url": "http://localhost:4000/gtfobins/xdotool/#shell"
+                        },{
+                            "label": "yarn",
+                            "url": "http://localhost:4000/gtfobins/yarn/#shell"
+                        },{
+                            "label": "yash",
+                            "url": "http://localhost:4000/gtfobins/yash/#shell"
+                        },{
+                            "label": "yt-dlp",
+                            "url": "http://localhost:4000/gtfobins/yt-dlp/#shell"
+                        },{
+                            "label": "yum",
+                            "url": "http://localhost:4000/gtfobins/yum/#command"
+                        },{
+                            "label": "zathura",
+                            "url": "http://localhost:4000/gtfobins/zathura/#shell"
+                        },{
+                            "label": "zic",
+                            "url": "http://localhost:4000/gtfobins/zic/#command"
+                        },{
+                            "label": "zip",
+                            "url": "http://localhost:4000/gtfobins/zip/#shell"
+                        },{
+                            "label": "zsh",
+                            "url": "http://localhost:4000/gtfobins/zsh/#reverse-shell"
+                        },{
+                            "label": "zsh",
+                            "url": "http://localhost:4000/gtfobins/zsh/#shell"
+                        },{
+                            "label": "zypper",
+                            "url": "http://localhost:4000/gtfobins/zypper/#shell"
+                        }]
+            },{
+                "techniqueID": "T1105",
+                "links": [{
+                            "label": "ab",
+                            "url": "http://localhost:4000/gtfobins/ab/#download"
+                        },{
+                            "label": "aria2c",
+                            "url": "http://localhost:4000/gtfobins/aria2c/#download"
+                        },{
+                            "label": "bash",
+                            "url": "http://localhost:4000/gtfobins/bash/#download"
+                        },{
+                            "label": "code",
+                            "url": "http://localhost:4000/gtfobins/code/#download"
+                        },{
+                            "label": "curl",
+                            "url": "http://localhost:4000/gtfobins/curl/#download"
+                        },{
+                            "label": "finger",
+                            "url": "http://localhost:4000/gtfobins/finger/#download"
+                        },{
+                            "label": "ftp",
+                            "url": "http://localhost:4000/gtfobins/ftp/#download"
+                        },{
+                            "label": "jjs",
+                            "url": "http://localhost:4000/gtfobins/jjs/#download"
+                        },{
+                            "label": "jrunscript",
+                            "url": "http://localhost:4000/gtfobins/jrunscript/#download"
+                        },{
+                            "label": "julia",
+                            "url": "http://localhost:4000/gtfobins/julia/#download"
+                        },{
+                            "label": "lua",
+                            "url": "http://localhost:4000/gtfobins/lua/#download"
+                        },{
+                            "label": "lwp-download",
+                            "url": "http://localhost:4000/gtfobins/lwp-download/#download"
+                        },{
+                            "label": "nc",
+                            "url": "http://localhost:4000/gtfobins/nc/#download"
+                        },{
+                            "label": "nginx",
+                            "url": "http://localhost:4000/gtfobins/nginx/#download"
+                        },{
+                            "label": "node",
+                            "url": "http://localhost:4000/gtfobins/node/#download"
+                        },{
+                            "label": "openssl",
+                            "url": "http://localhost:4000/gtfobins/openssl/#download"
+                        },{
+                            "label": "perl",
+                            "url": "http://localhost:4000/gtfobins/perl/#download"
+                        },{
+                            "label": "php",
+                            "url": "http://localhost:4000/gtfobins/php/#download"
+                        },{
+                            "label": "python",
+                            "url": "http://localhost:4000/gtfobins/python/#download"
+                        },{
+                            "label": "ruby",
+                            "url": "http://localhost:4000/gtfobins/ruby/#download"
+                        },{
+                            "label": "scp",
+                            "url": "http://localhost:4000/gtfobins/scp/#download"
+                        },{
+                            "label": "sftp",
+                            "url": "http://localhost:4000/gtfobins/sftp/#download"
+                        },{
+                            "label": "smbclient",
+                            "url": "http://localhost:4000/gtfobins/smbclient/#download"
+                        },{
+                            "label": "socat",
+                            "url": "http://localhost:4000/gtfobins/socat/#download"
+                        },{
+                            "label": "ssh",
+                            "url": "http://localhost:4000/gtfobins/ssh/#download"
+                        },{
+                            "label": "sshfs",
+                            "url": "http://localhost:4000/gtfobins/sshfs/#download"
+                        },{
+                            "label": "tar",
+                            "url": "http://localhost:4000/gtfobins/tar/#download"
+                        },{
+                            "label": "tftp",
+                            "url": "http://localhost:4000/gtfobins/tftp/#download"
+                        },{
+                            "label": "wget",
+                            "url": "http://localhost:4000/gtfobins/wget/#download"
+                        },{
+                            "label": "whois",
+                            "url": "http://localhost:4000/gtfobins/whois/#download"
+                        },{
+                            "label": "yum",
+                            "url": "http://localhost:4000/gtfobins/yum/#download"
+                        },{
+                            "label": "zsh",
+                            "url": "http://localhost:4000/gtfobins/zsh/#download"
+                        }]
+            },{
+                "techniqueID": "T1041",
+                "links": [{
+                            "label": "ab",
+                            "url": "http://localhost:4000/gtfobins/ab/#upload"
+                        },{
+                            "label": "bash",
+                            "url": "http://localhost:4000/gtfobins/bash/#upload"
+                        },{
+                            "label": "busybox",
+                            "url": "http://localhost:4000/gtfobins/busybox/#upload"
+                        },{
+                            "label": "cancel",
+                            "url": "http://localhost:4000/gtfobins/cancel/#upload"
+                        },{
+                            "label": "code",
+                            "url": "http://localhost:4000/gtfobins/code/#upload"
+                        },{
+                            "label": "curl",
+                            "url": "http://localhost:4000/gtfobins/curl/#upload"
+                        },{
+                            "label": "finger",
+                            "url": "http://localhost:4000/gtfobins/finger/#upload"
+                        },{
+                            "label": "ftp",
+                            "url": "http://localhost:4000/gtfobins/ftp/#upload"
+                        },{
+                            "label": "hping3",
+                            "url": "http://localhost:4000/gtfobins/hping3/#upload"
+                        },{
+                            "label": "kubectl",
+                            "url": "http://localhost:4000/gtfobins/kubectl/#upload"
+                        },{
+                            "label": "lp",
+                            "url": "http://localhost:4000/gtfobins/lp/#upload"
+                        },{
+                            "label": "lua",
+                            "url": "http://localhost:4000/gtfobins/lua/#upload"
+                        },{
+                            "label": "nc",
+                            "url": "http://localhost:4000/gtfobins/nc/#upload"
+                        },{
+                            "label": "nginx",
+                            "url": "http://localhost:4000/gtfobins/nginx/#upload"
+                        },{
+                            "label": "node",
+                            "url": "http://localhost:4000/gtfobins/node/#upload"
+                        },{
+                            "label": "openssl",
+                            "url": "http://localhost:4000/gtfobins/openssl/#upload"
+                        },{
+                            "label": "perl",
+                            "url": "http://localhost:4000/gtfobins/perl/#upload"
+                        },{
+                            "label": "php",
+                            "url": "http://localhost:4000/gtfobins/php/#upload"
+                        },{
+                            "label": "python",
+                            "url": "http://localhost:4000/gtfobins/python/#upload"
+                        },{
+                            "label": "restic",
+                            "url": "http://localhost:4000/gtfobins/restic/#upload"
+                        },{
+                            "label": "rlogin",
+                            "url": "http://localhost:4000/gtfobins/rlogin/#upload"
+                        },{
+                            "label": "ruby",
+                            "url": "http://localhost:4000/gtfobins/ruby/#upload"
+                        },{
+                            "label": "scp",
+                            "url": "http://localhost:4000/gtfobins/scp/#upload"
+                        },{
+                            "label": "sftp",
+                            "url": "http://localhost:4000/gtfobins/sftp/#upload"
+                        },{
+                            "label": "smbclient",
+                            "url": "http://localhost:4000/gtfobins/smbclient/#upload"
+                        },{
+                            "label": "socat",
+                            "url": "http://localhost:4000/gtfobins/socat/#upload"
+                        },{
+                            "label": "ssh",
+                            "url": "http://localhost:4000/gtfobins/ssh/#upload"
+                        },{
+                            "label": "sshfs",
+                            "url": "http://localhost:4000/gtfobins/sshfs/#upload"
+                        },{
+                            "label": "tailscale",
+                            "url": "http://localhost:4000/gtfobins/tailscale/#upload"
+                        },{
+                            "label": "tar",
+                            "url": "http://localhost:4000/gtfobins/tar/#upload"
+                        },{
+                            "label": "tftp",
+                            "url": "http://localhost:4000/gtfobins/tftp/#upload"
+                        },{
+                            "label": "wget",
+                            "url": "http://localhost:4000/gtfobins/wget/#upload"
+                        },{
+                            "label": "whois",
+                            "url": "http://localhost:4000/gtfobins/whois/#upload"
+                        },{
+                            "label": "zsh",
+                            "url": "http://localhost:4000/gtfobins/zsh/#upload"
+                        }]
+            },{
+                "techniqueID": "T1565",
+                "links": [{
+                            "label": "arj",
+                            "url": "http://localhost:4000/gtfobins/arj/#file-write"
+                        },{
+                            "label": "ash",
+                            "url": "http://localhost:4000/gtfobins/ash/#file-write"
+                        },{
+                            "label": "bash",
+                            "url": "http://localhost:4000/gtfobins/bash/#file-write"
+                        },{
+                            "label": "check_log",
+                            "url": "http://localhost:4000/gtfobins/check_log/#file-write"
+                        },{
+                            "label": "cp",
+                            "url": "http://localhost:4000/gtfobins/cp/#file-write"
+                        },{
+                            "label": "cpio",
+                            "url": "http://localhost:4000/gtfobins/cpio/#file-write"
+                        },{
+                            "label": "csh",
+                            "url": "http://localhost:4000/gtfobins/csh/#file-write"
+                        },{
+                            "label": "csplit",
+                            "url": "http://localhost:4000/gtfobins/csplit/#file-write"
+                        },{
+                            "label": "csvtool",
+                            "url": "http://localhost:4000/gtfobins/csvtool/#file-write"
+                        },{
+                            "label": "curl",
+                            "url": "http://localhost:4000/gtfobins/curl/#file-write"
+                        },{
+                            "label": "dash",
+                            "url": "http://localhost:4000/gtfobins/dash/#file-write"
+                        },{
+                            "label": "dd",
+                            "url": "http://localhost:4000/gtfobins/dd/#file-write"
+                        },{
+                            "label": "dmidecode",
+                            "url": "http://localhost:4000/gtfobins/dmidecode/#file-write"
+                        },{
+                            "label": "docker",
+                            "url": "http://localhost:4000/gtfobins/docker/#file-write"
+                        },{
+                            "label": "dos2unix",
+                            "url": "http://localhost:4000/gtfobins/dos2unix/#file-write"
+                        },{
+                            "label": "dosbox",
+                            "url": "http://localhost:4000/gtfobins/dosbox/#file-write"
+                        },{
+                            "label": "ed",
+                            "url": "http://localhost:4000/gtfobins/ed/#file-write"
+                        },{
+                            "label": "elvish",
+                            "url": "http://localhost:4000/gtfobins/elvish/#file-write"
+                        },{
+                            "label": "emacs",
+                            "url": "http://localhost:4000/gtfobins/emacs/#file-write"
+                        },{
+                            "label": "exiftool",
+                            "url": "http://localhost:4000/gtfobins/exiftool/#file-write"
+                        },{
+                            "label": "find",
+                            "url": "http://localhost:4000/gtfobins/find/#file-write"
+                        },{
+                            "label": "gawk",
+                            "url": "http://localhost:4000/gtfobins/gawk/#file-write"
+                        },{
+                            "label": "gcc",
+                            "url": "http://localhost:4000/gtfobins/gcc/#file-write"
+                        },{
+                            "label": "gdb",
+                            "url": "http://localhost:4000/gtfobins/gdb/#file-write"
+                        },{
+                            "label": "git",
+                            "url": "http://localhost:4000/gtfobins/git/#file-write"
+                        },{
+                            "label": "go",
+                            "url": "http://localhost:4000/gtfobins/go/#file-write"
+                        },{
+                            "label": "gtester",
+                            "url": "http://localhost:4000/gtfobins/gtester/#file-write"
+                        },{
+                            "label": "hashcat",
+                            "url": "http://localhost:4000/gtfobins/hashcat/#file-write"
+                        },{
+                            "label": "iconv",
+                            "url": "http://localhost:4000/gtfobins/iconv/#file-write"
+                        },{
+                            "label": "iptables-save",
+                            "url": "http://localhost:4000/gtfobins/iptables-save/#file-write"
+                        },{
+                            "label": "jjs",
+                            "url": "http://localhost:4000/gtfobins/jjs/#file-write"
+                        },{
+                            "label": "jrunscript",
+                            "url": "http://localhost:4000/gtfobins/jrunscript/#file-write"
+                        },{
+                            "label": "jshell",
+                            "url": "http://localhost:4000/gtfobins/jshell/#file-write"
+                        },{
+                            "label": "julia",
+                            "url": "http://localhost:4000/gtfobins/julia/#file-write"
+                        },{
+                            "label": "latex",
+                            "url": "http://localhost:4000/gtfobins/latex/#file-write"
+                        },{
+                            "label": "less",
+                            "url": "http://localhost:4000/gtfobins/less/#file-write"
+                        },{
+                            "label": "logrotate",
+                            "url": "http://localhost:4000/gtfobins/logrotate/#file-write"
+                        },{
+                            "label": "ltrace",
+                            "url": "http://localhost:4000/gtfobins/ltrace/#file-write"
+                        },{
+                            "label": "lua",
+                            "url": "http://localhost:4000/gtfobins/lua/#file-write"
+                        },{
+                            "label": "lwp-download",
+                            "url": "http://localhost:4000/gtfobins/lwp-download/#file-write"
+                        },{
+                            "label": "make",
+                            "url": "http://localhost:4000/gtfobins/make/#file-write"
+                        },{
+                            "label": "mawk",
+                            "url": "http://localhost:4000/gtfobins/mawk/#file-write"
+                        },{
+                            "label": "mv",
+                            "url": "http://localhost:4000/gtfobins/mv/#file-write"
+                        },{
+                            "label": "mypy",
+                            "url": "http://localhost:4000/gtfobins/mypy/#file-write"
+                        },{
+                            "label": "nano",
+                            "url": "http://localhost:4000/gtfobins/nano/#file-write"
+                        },{
+                            "label": "nmap",
+                            "url": "http://localhost:4000/gtfobins/nmap/#file-write"
+                        },{
+                            "label": "node",
+                            "url": "http://localhost:4000/gtfobins/node/#file-write"
+                        },{
+                            "label": "octave",
+                            "url": "http://localhost:4000/gtfobins/octave/#file-write"
+                        },{
+                            "label": "openssl",
+                            "url": "http://localhost:4000/gtfobins/openssl/#file-write"
+                        },{
+                            "label": "pandoc",
+                            "url": "http://localhost:4000/gtfobins/pandoc/#file-write"
+                        },{
+                            "label": "pdflatex",
+                            "url": "http://localhost:4000/gtfobins/pdflatex/#file-write"
+                        },{
+                            "label": "php",
+                            "url": "http://localhost:4000/gtfobins/php/#file-write"
+                        },{
+                            "label": "puppet",
+                            "url": "http://localhost:4000/gtfobins/puppet/#file-write"
+                        },{
+                            "label": "pwsh",
+                            "url": "http://localhost:4000/gtfobins/pwsh/#file-write"
+                        },{
+                            "label": "python",
+                            "url": "http://localhost:4000/gtfobins/python/#file-write"
+                        },{
+                            "label": "redis",
+                            "url": "http://localhost:4000/gtfobins/redis/#file-write"
+                        },{
+                            "label": "rlwrap",
+                            "url": "http://localhost:4000/gtfobins/rlwrap/#file-write"
+                        },{
+                            "label": "ruby",
+                            "url": "http://localhost:4000/gtfobins/ruby/#file-write"
+                        },{
+                            "label": "rustc",
+                            "url": "http://localhost:4000/gtfobins/rustc/#file-write"
+                        },{
+                            "label": "rustdoc",
+                            "url": "http://localhost:4000/gtfobins/rustdoc/#file-write"
+                        },{
+                            "label": "screen",
+                            "url": "http://localhost:4000/gtfobins/screen/#file-write"
+                        },{
+                            "label": "script",
+                            "url": "http://localhost:4000/gtfobins/script/#file-write"
+                        },{
+                            "label": "sed",
+                            "url": "http://localhost:4000/gtfobins/sed/#file-write"
+                        },{
+                            "label": "shred",
+                            "url": "http://localhost:4000/gtfobins/shred/#file-write"
+                        },{
+                            "label": "shuf",
+                            "url": "http://localhost:4000/gtfobins/shuf/#file-write"
+                        },{
+                            "label": "socat",
+                            "url": "http://localhost:4000/gtfobins/socat/#file-write"
+                        },{
+                            "label": "sort",
+                            "url": "http://localhost:4000/gtfobins/sort/#file-write"
+                        },{
+                            "label": "split",
+                            "url": "http://localhost:4000/gtfobins/split/#file-write"
+                        },{
+                            "label": "sqlite3",
+                            "url": "http://localhost:4000/gtfobins/sqlite3/#file-write"
+                        },{
+                            "label": "ssh-copy-id",
+                            "url": "http://localhost:4000/gtfobins/ssh-copy-id/#file-write"
+                        },{
+                            "label": "strace",
+                            "url": "http://localhost:4000/gtfobins/strace/#file-write"
+                        },{
+                            "label": "tar",
+                            "url": "http://localhost:4000/gtfobins/tar/#file-write"
+                        },{
+                            "label": "tcpdump",
+                            "url": "http://localhost:4000/gtfobins/tcpdump/#file-write"
+                        },{
+                            "label": "tcsh",
+                            "url": "http://localhost:4000/gtfobins/tcsh/#file-write"
+                        },{
+                            "label": "tee",
+                            "url": "http://localhost:4000/gtfobins/tee/#file-write"
+                        },{
+                            "label": "tsc",
+                            "url": "http://localhost:4000/gtfobins/tsc/#file-write"
+                        },{
+                            "label": "update-alternatives",
+                            "url": "http://localhost:4000/gtfobins/update-alternatives/#file-write"
+                        },{
+                            "label": "varnishncsa",
+                            "url": "http://localhost:4000/gtfobins/varnishncsa/#file-write"
+                        },{
+                            "label": "vi",
+                            "url": "http://localhost:4000/gtfobins/vi/#file-write"
+                        },{
+                            "label": "virsh",
+                            "url": "http://localhost:4000/gtfobins/virsh/#file-write"
+                        },{
+                            "label": "wget",
+                            "url": "http://localhost:4000/gtfobins/wget/#file-write"
+                        },{
+                            "label": "wireshark",
+                            "url": "http://localhost:4000/gtfobins/wireshark/#file-write"
+                        },{
+                            "label": "xxd",
+                            "url": "http://localhost:4000/gtfobins/xxd/#file-write"
+                        },{
+                            "label": "zsh",
+                            "url": "http://localhost:4000/gtfobins/zsh/#file-write"
+                        }]
+            },{
+                "techniqueID": "T1574",
+                "links": [{
+                            "label": "bash",
+                            "url": "http://localhost:4000/gtfobins/bash/#library-load"
+                        },{
+                            "label": "curl",
+                            "url": "http://localhost:4000/gtfobins/curl/#library-load"
+                        },{
+                            "label": "ffmpeg",
+                            "url": "http://localhost:4000/gtfobins/ffmpeg/#library-load"
+                        },{
+                            "label": "ldconfig",
+                            "url": "http://localhost:4000/gtfobins/ldconfig/#library-load"
+                        },{
+                            "label": "mysql",
+                            "url": "http://localhost:4000/gtfobins/mysql/#library-load"
+                        },{
+                            "label": "nginx",
+                            "url": "http://localhost:4000/gtfobins/nginx/#library-load"
+                        },{
+                            "label": "openssl",
+                            "url": "http://localhost:4000/gtfobins/openssl/#library-load"
+                        },{
+                            "label": "python",
+                            "url": "http://localhost:4000/gtfobins/python/#library-load"
+                        },{
+                            "label": "ruby",
+                            "url": "http://localhost:4000/gtfobins/ruby/#library-load"
+                        },{
+                            "label": "ssh-keygen",
+                            "url": "http://localhost:4000/gtfobins/ssh-keygen/#library-load"
+                        },{
+                            "label": "tclsh",
+                            "url": "http://localhost:4000/gtfobins/tclsh/#library-load"
+                        }]
+            },{
+                "techniqueID": "T1071",
+                "links": [{
+                            "label": "bash",
+                            "url": "http://localhost:4000/gtfobins/bash/#reverse-shell"
+                        },{
+                            "label": "busybox",
+                            "url": "http://localhost:4000/gtfobins/busybox/#reverse-shell"
+                        },{
+                            "label": "code",
+                            "url": "http://localhost:4000/gtfobins/code/#reverse-shell"
+                        },{
+                            "label": "gawk",
+                            "url": "http://localhost:4000/gtfobins/gawk/#bind-shell"
+                        },{
+                            "label": "gawk",
+                            "url": "http://localhost:4000/gtfobins/gawk/#reverse-shell"
+                        },{
+                            "label": "go",
+                            "url": "http://localhost:4000/gtfobins/go/#bind-shell"
+                        },{
+                            "label": "go",
+                            "url": "http://localhost:4000/gtfobins/go/#reverse-shell"
+                        },{
+                            "label": "jjs",
+                            "url": "http://localhost:4000/gtfobins/jjs/#reverse-shell"
+                        },{
+                            "label": "jrunscript",
+                            "url": "http://localhost:4000/gtfobins/jrunscript/#reverse-shell"
+                        },{
+                            "label": "julia",
+                            "url": "http://localhost:4000/gtfobins/julia/#reverse-shell"
+                        },{
+                            "label": "lua",
+                            "url": "http://localhost:4000/gtfobins/lua/#bind-shell"
+                        },{
+                            "label": "lua",
+                            "url": "http://localhost:4000/gtfobins/lua/#reverse-shell"
+                        },{
+                            "label": "nc",
+                            "url": "http://localhost:4000/gtfobins/nc/#bind-shell"
+                        },{
+                            "label": "nc",
+                            "url": "http://localhost:4000/gtfobins/nc/#reverse-shell"
+                        },{
+                            "label": "node",
+                            "url": "http://localhost:4000/gtfobins/node/#bind-shell"
+                        },{
+                            "label": "node",
+                            "url": "http://localhost:4000/gtfobins/node/#reverse-shell"
+                        },{
+                            "label": "openssl",
+                            "url": "http://localhost:4000/gtfobins/openssl/#reverse-shell"
+                        },{
+                            "label": "perl",
+                            "url": "http://localhost:4000/gtfobins/perl/#reverse-shell"
+                        },{
+                            "label": "php",
+                            "url": "http://localhost:4000/gtfobins/php/#reverse-shell"
+                        },{
+                            "label": "python",
+                            "url": "http://localhost:4000/gtfobins/python/#reverse-shell"
+                        },{
+                            "label": "ruby",
+                            "url": "http://localhost:4000/gtfobins/ruby/#reverse-shell"
+                        },{
+                            "label": "socat",
+                            "url": "http://localhost:4000/gtfobins/socat/#bind-shell"
+                        },{
+                            "label": "socat",
+                            "url": "http://localhost:4000/gtfobins/socat/#reverse-shell"
+                        },{
+                            "label": "socket",
+                            "url": "http://localhost:4000/gtfobins/socket/#bind-shell"
+                        },{
+                            "label": "socket",
+                            "url": "http://localhost:4000/gtfobins/socket/#reverse-shell"
+                        },{
+                            "label": "tclsh",
+                            "url": "http://localhost:4000/gtfobins/tclsh/#reverse-shell"
+                        },{
+                            "label": "telnet",
+                            "url": "http://localhost:4000/gtfobins/telnet/#reverse-shell"
+                        },{
+                            "label": "zsh",
+                            "url": "http://localhost:4000/gtfobins/zsh/#reverse-shell"
+                        }]
+            },{
+                "techniqueID": "T1548",
+                "links": [{
+                            "label": "chattr",
+                            "url": "http://localhost:4000/gtfobins/chattr/#privilege-escalation"
+                        },{
+                            "label": "chmod",
+                            "url": "http://localhost:4000/gtfobins/chmod/#privilege-escalation"
+                        },{
+                            "label": "chown",
+                            "url": "http://localhost:4000/gtfobins/chown/#privilege-escalation"
+                        },{
+                            "label": "cp",
+                            "url": "http://localhost:4000/gtfobins/cp/#privilege-escalation"
+                        },{
+                            "label": "getent",
+                            "url": "http://localhost:4000/gtfobins/getent/#privilege-escalation"
+                        },{
+                            "label": "install",
+                            "url": "http://localhost:4000/gtfobins/install/#privilege-escalation"
+                        },{
+                            "label": "ln",
+                            "url": "http://localhost:4000/gtfobins/ln/#privilege-escalation"
+                        },{
+                            "label": "mount",
+                            "url": "http://localhost:4000/gtfobins/mount/#privilege-escalation"
+                        },{
+                            "label": "mv",
+                            "url": "http://localhost:4000/gtfobins/mv/#privilege-escalation"
+                        },{
+                            "label": "passwd",
+                            "url": "http://localhost:4000/gtfobins/passwd/#privilege-escalation"
+                        },{
+                            "label": "setcap",
+                            "url": "http://localhost:4000/gtfobins/setcap/#privilege-escalation"
+                        },{
+                            "label": "setfacl",
+                            "url": "http://localhost:4000/gtfobins/setfacl/#privilege-escalation"
+                        },{
+                            "label": "unsquashfs",
+                            "url": "http://localhost:4000/gtfobins/unsquashfs/#privilege-escalation"
+                        },{
+                            "label": "unzip",
+                            "url": "http://localhost:4000/gtfobins/unzip/#privilege-escalation"
+                        }]
+            }]
+}
